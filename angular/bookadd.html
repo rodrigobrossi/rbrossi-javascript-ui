@@ -1,0 +1,30 @@
+<div class="mybooks-mainpanel">
+		
+	<div class="input-group input-group-lg">
+		<label>Title</label>
+		<input type="text" class="form-control" ng-model="book.title">
+	</div>
+	
+	<div class="input-group input-group-lg">
+		<label>Author</label>
+		<input type="text" class="form-control" ng-model="book.author">
+	</div>
+	
+	<div class="input-group input-group-lg">
+		<label>Cover Path</label>
+		<input type="text" class="form-control" ng-model="book.cover">
+	</div>
+	
+	<div class="input-group input-group-lg">
+		<label>Summary</label>
+		<input type="text" class="form-control" ng-model="book.summary">
+	</div>
+	
+	<br>
+	
+	<div class="btn-group">
+  		<button type="button" class="btn btn-success" ng-click="addBook()">Add</button>
+  		<button type="button" class="btn btn-danger" ng-click="cancelAddBook()">Cancel</button>
+	</div>
+
+</div>

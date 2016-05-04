@@ -1,0 +1,118 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="938" measuredH="597" mockupW="736" mockupH="574">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="202" y="23" w="736" h="574" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Canvas" x="202" y="96" w="736" h="83" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Canvas" x="202" y="179" w="736" h="39" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::TextInput" x="341" y="187" w="584" h="-1" measuredW="51" measuredH="24" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <italic>true</italic>
+        <text>Search</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Label" x="259" y="189" w="82" h="-1" measuredW="71" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Find%20a%20Book%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Button" x="211" y="182" w="37" h="32" measuredW="45" measuredH="24" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>AddPageIcon%7Csmall</icon>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Label" x="211" y="103" w="211" h="-1" measuredW="208" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <text>Welcome%20to%20BR%20Lab%20Tech%20Day%202014</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Label" x="843" y="103" w="85" h="-1" measuredW="78" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <text>Oct-04-2014</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Label" x="500" y="123" w="224" h="-1" measuredW="197" measuredH="28" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>16777215</color>
+        <size>20</size>
+        <text>MyBooks%20Application</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="__group__" x="282" y="241" w="599" h="137" measuredW="599" measuredH="137" zOrder="9" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="0" y="0" w="100" h="137" measuredW="181" measuredH="278" zOrder="0" locked="false" isInGroup="34">
+          <controlProperties>
+            <src>../images/lotr.jpg</src>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="120" y="0" w="116" h="-1" measuredW="81" measuredH="26" zOrder="1" locked="false" isInGroup="34">
+          <controlProperties>
+            <size>18</size>
+            <text>Book%20Title</text>
+            <underline>true</underline>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="120" y="26" w="116" h="-1" measuredW="71" measuredH="21" zOrder="2" locked="false" isInGroup="34">
+          <controlProperties>
+            <italic>true</italic>
+            <text>Book%20Author</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Paragraph" x="120" y="52" w="384" h="48" measuredW="200" measuredH="80" zOrder="3" locked="false" isInGroup="34">
+          <controlProperties>
+            <text>About%3A%20Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit.%20Donec%20enim%20nulla%2C%20vehicula%20et%20hendrerit%20eu%2C%20pretium%20at%20ligula.%20In%20hac%20habitasse%20platea%20dictumst</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::CheckBox" x="533" y="6" w="66" h="22" measuredW="47" measuredH="22" zOrder="4" locked="false" isInGroup="34">
+          <controlProperties>
+            <text>J%E1%20Li</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="35" controlTypeID="__group__" x="281" y="400" w="600" h="146" measuredW="600" measuredH="146" zOrder="10" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="121" y="9" w="116" h="-1" measuredW="81" measuredH="26" zOrder="0" locked="false" isInGroup="35">
+          <controlProperties>
+            <size>18</size>
+            <text>Book%20Title</text>
+            <underline>true</underline>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="121" y="35" w="116" h="-1" measuredW="71" measuredH="21" zOrder="1" locked="false" isInGroup="35">
+          <controlProperties>
+            <italic>true</italic>
+            <text>Book%20Author</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Paragraph" x="121" y="61" w="384" h="85" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="35">
+          <controlProperties>
+            <text>About%3A%20Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit.%20Donec%20enim%20nulla%2C%20vehicula%20et%20hendrerit%20eu%2C%20pretium%20at%20ligula.%20In%20hac%20habitasse%20platea%20dictumst.%20Quisque%20a%20metus%20at%20lectus%20tempus%20fringilla.%20Nullam%20tempus%20nunc%20risus%2C%20sit%20amet%20placerat%20magna%20gravida%20ac.%20In%20efficitur%20fringilla%20feugiat.</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::CheckBox" x="534" y="15" w="66" h="22" measuredW="47" measuredH="22" zOrder="3" locked="false" isInGroup="35">
+          <controlProperties>
+            <text>J%E1%20Li</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Image" x="0" y="0" w="100" h="139" measuredW="182" measuredH="277" zOrder="4" locked="false" isInGroup="35">
+          <controlProperties>
+            <src>../images/got.jpg</src>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::VerticalScrollBar" x="922" y="218" w="-1" h="379" measuredW="16" measuredH="100" zOrder="11" locked="false" isInGroup="-1"/>
+  </controls>
+</mockup>

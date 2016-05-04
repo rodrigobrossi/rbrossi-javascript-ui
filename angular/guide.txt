@@ -1,0 +1,45 @@
+
+- Slides: Overview Bootstrap / AngularJS - 7 min
+
+Bootstap Hands On
+
+- Mostrar Sketch
+- Página de Template - Hello World (index00)
+- Adicionando NavBar do getbootstrap.com -> index00.html
+- Mostrar layout completo em index01.html
+- Testar responsividade em index01.html
+- Ainda na index01, adicionar classes para quebrar em linhas diferentes quando xs, e em duas colunas quando sm.
+- Mostrar layout responsivo completo em index02.html
+
+Angular Hands On
+
+- Definição de Módulo e a diretiva ng-app - index03.html
+- Directives - extendendo o DOM HTML (book) - index03.html
+- Controller - jogar os valores hardcoded na tela para vari·veis no escopo, uma vari·vel por livro (index04.html)
+- Alterar index04/mybooks_04 na seguinte ordem:
+	1) Criar um array dentro do controller
+	2) iterar no array no html
+	3) mover array para um factory e fazer o controller chama-lo - mostrar injeção de dependência (reuso)
+	4) Mostrar o filtro
+- Resultado das tarefas acima est„o em index05.html
+- Explicar ConfiguraÁ„o de Provider (mybook_06.js)
+- Explicar na sequência:
+	1) retirada da parte de list do html principal (do index05), e move-lo para outro html (booklist.html).
+	2) criar um bookadd.html (já existe) para a página de formulário
+	3) ng-view
+	4) Mostrar os View Controllers, e a lógica de inclusão (factory)
+
+Advanced Topics
+
+- Diretivas de Atributo
+- Angular Digest / scope apply
+- $resource (index04)
+- models adicionais (ex: resource, ngRoute)
+- ng-init, ng-show, ng-hide, ng-if
+- 
+
+
+Tarefas para Segundo Dia
+
+- update/delete books
+- ocultar botão de add quando houver 4 livros (ng-show/ng-hide)
