@@ -18,7 +18,7 @@ class App extends React.Component{
 	}
 
 	componentWillMount(){
-		this.setState({searchString: '', displayAll: false})
+		this.setState({searchString: '', displayAll: true})
 	}
 
 	render() {
