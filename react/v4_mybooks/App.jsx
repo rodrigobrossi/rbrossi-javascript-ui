@@ -11,15 +11,22 @@ class App extends React.Component{
 		});
 	}
 
+	switchDisplayIsRead(){
+		this.setState({
+			displayAll: !this.state.displayAll
+		})
+	}
+
 	componentWillMount(){
-		this.setState({searchString: ''})
+		this.setState({searchString: '', displayAll: false})
 	}
 
 	render() {
+		console.log(this.state);
 		return(
 			<div>
-				<Navbar onInputChange={this.onInputChange.bind(this)}/>
-				<BookContainer searchString={this.state.searchString} />
+				<Navbar onInputChange={this.onInputChange.bind(this)} switchDisplayIsRead={this.switchDisplayIsRead.bind(this)} displayAll={this.state.displayAll} />
+				<BookContainer searchString={this.state.searchString} displayAll={this.state.displayAll} />
 			</div>
 		);
 	}

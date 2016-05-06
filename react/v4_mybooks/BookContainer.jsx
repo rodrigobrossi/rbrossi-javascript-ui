@@ -27,10 +27,12 @@ class BookContainer extends Component {
   }
 
   render(){
+    console.log(this.state.books);
     return (
       <div className="row">
       {
         this.state.books
+        .filter(el => (this.props.displayAll || !el.isRead))
         .filter(el => el.title.search(this.props.searchString) > -1)
         .map((book, index) => (<Book key={index} {...book} onIsRead={this.setRead.bind(this, book.id)} />))
       }

@@ -14,8 +14,8 @@ class Navbar extends Component {
 			            <div className="panel-body">
 			                <div className="row">
 			                    <div className="col-xs-1">
-			                        <button type="button" className="btn btn-default navbar-btn">
-			                            <span className="glyphicon glyphicon-ok"></span>
+			                        <button type="button" className="btn btn-default navbar-btn" onClick={this.props.switchDisplayIsRead}>
+			                            <span className={"glyphicon glyphicon-"+ ((this.props.displayAll) ? "globe" : "unchecked")}></span>
 			                        </button>
 			                    </div>
 			                    <div className="col-xs-11">

@@ -13,7 +13,7 @@ const Book = ({id, title, author, description, image, isRead, onIsRead}) => (
                     <br />{description}
                 </div>
                 <div className="col-xs-12 col-sm-2 col-md-12 col-lg-2">
-                    <input type="checkbox" onClick={onIsRead} />J&aacute; Li
+                    <input type="checkbox" checked={isRead} onClick={onIsRead} />J&aacute; Li
                     <br />
                 </div>
             </div>
