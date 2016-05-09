@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 import Book from './Book'
 
 class BookContainer extends Component {
-  componentWillMount(){
-    this.setState(
-      {
+  constructor() {
+    super();
+    this.state = {
         books: [
         {
           id: 1,
@@ -23,10 +23,27 @@ class BookContainer extends Component {
           isRead: false
         }
       ]
-    });
+    };
+  }
+  componentWillMount(){
+    console.log("will mount");
+  }
+
+  componentWillReceiveProps(nextProps) {
+    console.log("will receive props");
+  }
+
+  shouldComponentUpdate(nextProps, nextState) {
+    // Don't update the component if the search string contains numbers
+    return !nextProps.searchString.match(/\d+/g);
+  }
+
+  componentWillUpdate(nextProps, nextState) {
+    console.log("will update");
   }
 
   render(){
+    console.log("render");
     return (
       <div className="row">
       {
@@ -36,6 +53,14 @@ class BookContainer extends Component {
       }
       </div>
     );
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    console.log("did update");
+  }
+
+  componentWillUnmount(){
+    console.log("will unmount");
   }
 
   setRead(id){
