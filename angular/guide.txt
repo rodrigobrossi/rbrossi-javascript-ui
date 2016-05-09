@@ -28,6 +28,7 @@ Angular Hands On
 	2) criar um bookadd.html (j‡ existe) para a p‡gina de formul‡rio
 	3) ng-view
 	4) Mostrar os View Controllers, e a l—gica de inclus‹o (factory)
+- Explicar fetch assíncrono de dados do server (mybook_07.js)
 
 Advanced Topics
 

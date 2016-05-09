@@ -31,8 +31,11 @@ myBook.directive('book', function() {
 
 myBook.controller('BookListCtrl', ['$scope', '$location', 'BookFactory', function($scope, $location, bookFactory){
 
+	$scope.loading = true;
 	bookFactory.getBooks(function(books){
 		$scope.books = books;
+		$scope.loading = false;
+		$scope.$apply();
 	});
 
 	$scope.addBook = function() {
@@ -95,9 +98,7 @@ myBook.service("BookFactory", [function() {
 		getBooks: function(callback){
 			setTimeout(function(){
 				callback(books);
-			},5000);
-		}
-
+			}, 5000);
 		}
 	};
 
