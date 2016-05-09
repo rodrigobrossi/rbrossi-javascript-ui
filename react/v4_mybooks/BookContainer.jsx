@@ -37,6 +37,7 @@ class BookContainer extends Component {
       }]
     };
   }
+
   componentWillMount(){
     console.log("will mount");
   }
@@ -81,6 +82,10 @@ class BookContainer extends Component {
 
     this.setState({books: [...this.state.books]});
   }
+}
+
+BookContainer.propTypes = {
+  searchString: React.PropTypes.string.isRequired
 }
 
 export default BookContainer;
