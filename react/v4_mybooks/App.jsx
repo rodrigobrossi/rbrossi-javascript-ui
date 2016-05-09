@@ -5,14 +5,17 @@ import BookContainer from './BookContainer'
 
 class App extends React.Component{
 
+	constructor() {
+		super();
+		this.state = {
+			searchString: ''
+		}
+	}
+
 	onInputChange(value){
 		this.setState({
 			searchString: value
 		});
-	}
-
-	componentWillMount(){
-		this.setState({searchString: ''})
 	}
 
 	render() {
@@ -26,3 +29,7 @@ class App extends React.Component{
 }
 
 export default App;
+
+
+// Replace <BookContainer line with this to test componentWillUnmount>
+// {this.state.searchString === 'testunmount' ? <div></div> : <BookContainer searchString={this.state.searchString} />}

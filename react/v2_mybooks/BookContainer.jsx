@@ -21,7 +21,7 @@ class BookContainer extends Component {
 
         return (
             <div className="row">
-                <Book title={books[0].title} author={books[0].author} description={books[0].description} image='{books[0]}' />
+                <Book title={books[0].title} author={books[0].author} description={books[0].description} image='{books[0].image}' />
                 <Book {...books[1]} />
             </div>
         );
