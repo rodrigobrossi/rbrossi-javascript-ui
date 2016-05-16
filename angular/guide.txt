@@ -15,7 +15,7 @@ Angular Hands On
 
 - Definição de Módulo e a diretiva ng-app - index03.html
 - Directives - extendendo o DOM HTML (book) - index03.html
-- Controller - jogar os valores hardcoded na tela para vari·veis no escopo, uma vari·vel por livro (index04.html)
+- Controller - jogar os valores hardcoded na tela para vari·veis no escopo, uma vari·vel por livro (index04.html), explicar os 3 tipos de passagem de parametro para escopo de diretiva (@, =, =something)
 - Alterar index04/mybooks_04 na seguinte ordem:
 	1) Criar um array dentro do controller
 	2) iterar no array no html
@@ -28,6 +28,7 @@ Angular Hands On
 	2) criar um bookadd.html (já existe) para a página de formulário
 	3) ng-view
 	4) Mostrar os View Controllers, e a lógica de inclusão (factory)
+- Explicar fetch assÌncrono de dados do server (mybook_07.js)
 
 Advanced Topics
 
