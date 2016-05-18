@@ -4,7 +4,6 @@
 }
 
 .mybooks-mainpanel {
-	margin-top: 56px;
 	box-shadow: initial !important;
 	border: 0;
 }
@@ -25,8 +24,4 @@
 .mybooks-jali{
 	text-decoration: line-through;
 	color: grey;
-}
-
-.mybooks-loading{
-	text-align: center;
 }
